@@ -33,6 +33,7 @@ end
      follow_links = @browser.buttons(:class => "follow_button")
    end
   follow_links.each { |follow_button| follow_button.click } if follow_links
+  sleep 2
  end
 
 #Reblog random post on the CURRENT page.
